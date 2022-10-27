@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#main_content{
+    width: 100%;
+    height: 100vh;
+}
+
+/*Estilos de la barra de navegacion */
+
+.nav_google{
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    /*background: #ff00cc; 
+    background: -webkit-linear-gradient(to right, #ff00cc, #333399);
+    background: linear-gradient(to right, #ff00cc, #333399); 
+    */
+}
+.nav_google .list_options{
+    display: flex;
+    list-style: none;
+    margin: auto 10px;
+   
+    font-size: 1rem;
+}
+.list_options li{
+    margin: auto 10px;
+}
+.list_options li a{
+    text-decoration: none;
+    color: black;
+}
+.list_options li a:hover{
+    text-decoration: underline;
+}
+.nav_google .menu_nav{
+    margin:auto 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.menu_nav:hover{
+    background-color: #e7e7e7;
+    border-radius: 25px;
+}
+.nav_google .menu_nav img{
+    width: 25px;
+    height: 25px;
+    margin: auto;
+}
+
+
+
+
+#profile_content{
+    width: 40px;
+    height: 40px;
+    border: 3px solid #e7e7e7;
+    border-radius: 50%;
+    background-image: url(/src/img/profile_img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.link_profile{
+    margin: auto 10px;
+}  
+#profile_content:hover{
+    border: 3px solid pink;
+}
+
+/*Estilos de la seccion de busqueda*/
+
+#search_section{
+    width: 100%;
+    height: 80vh;
+}
+#search_section .img_google{
+    width: 25%;
+    height: 20vh;
+    margin: 10vh auto;
+}
+.img_google img{
+    width: 100%;
+    height: 100%;
+}
+
+.search_content{
+    width: 60%;
+    height: 30vh;
+    margin: 5vh auto;
+    display: flex;
+    flex-direction: column;
+}
+.search_content .search_bar{
+    width: 80%;
+    height: 10vh;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: 0.5px solid #e7e7e7;
+    
+}
+.search_bar::placeholder{
+    border: 1px solid #ff00cc;
+}
+.bottom_buttons{
+    width: 40%;
+    height: 10vh;
+    display: flex;
+    margin: 10px auto;
+}
+
+.bottom_buttons .button_lucky{
+    width: 45%;
+    height: 40px;
+    margin: auto;
+    border-radius: 15px;
+    border: none;
+    background-color: #e7e7e7;
+}
+.button_lucky:hover{
+    border: 0.5px solid #ff00cc;
+}
+.bottom_buttons .button_google{
+    width: 45%;
+    height: 40px;
+    margin: auto;
+    border-radius: 15px;
+    border: none;
+    background-color: #e7e7e7;
+}
+.button_google:hover{
+    border: 0.5px solid #ff00cc;
+}
+
+
+.footer_google{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_google .container_info{
+    width: 40%;
+    height: 100%;
+}
+.container_info ul{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+.container_info ul li{
+    list-style: none;    
+}
+.container_info ul li:hover{
+    text-decoration: underline;
+}
+.footer_google .container_options{
+    width: 40%;
+    height: 100%;
+}
+.container_options ul{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+.container_options ul li{
+    list-style: none;    
+}
+.container_options ul li:hover{
+    text-decoration: underline;
+}
